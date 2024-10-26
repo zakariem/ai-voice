@@ -7,7 +7,7 @@ from livekit.plugins import openai, silero
 
 load_dotenv()
 
-async def entrypoint():
+async def entrypoint(ctx: JobContext):
     pass
 
 if __name__ == "__main__":
